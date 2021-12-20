@@ -2,7 +2,5 @@ version: "3.9"  # optional since v1.27.0
 services:
   email-service:
     build: .
-    ports:
-      - "5000:5000"
     volumes:
       - .:/srv/app
