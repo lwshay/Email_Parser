@@ -5,15 +5,9 @@
 - docker-compose
 
 ## Build/Run instructions
-In your terminal type
+In your my docker image run
 
 ```
-docker pull lwshay/Email_Parser:latest && docker-compose up -d
-```
-
-to use my docker image or, in case of adjustments to the ```Dockerfile```, just type:
-
-```
-docker-compose up -d
+docker-compose up
 ```
 
