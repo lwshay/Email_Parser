@@ -28,7 +28,7 @@ for m in messages.getmembers():
             data.append(em)
 
 try: 
-    #save cvs
+    #save csv
     df = pandas.DataFrame(data, columns = cvsColumns)
     df.to_csv('parsed_email.csv', index=False, header=True)
     print("File Saved")
